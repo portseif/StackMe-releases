@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>StackMe</title>
+        <item>
+            <title>1.0</title>
+            <pubDate>Thu, 02 Apr 2026 19:04:50 -0400</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <enclosure url="https://portseif.github.io/StackMe-releases/releases/StackMe.dmg" length="9184811" type="application/octet-stream"/>
+        </item>
+    </channel>
+</rss>
