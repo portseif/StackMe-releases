@@ -8,7 +8,7 @@
             <sparkle:version>1</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
-            <enclosure url="https://portseif.github.io/StackMe-releases/StackMe.dmg" length="9184252" type="application/octet-stream" sparkle:edSignature="28NetCpXT7xC9M4CwSEq7xSfNnbAtRa4vWo4yWSSaWY/2ChNnGIjNVwaGHaYZutN0sFkQSKKN6MmySINNr8sCw=="/>
+            <enclosure url="https://portseif.github.io/StackMe-releases/StackMe.dmg" length="9184240" type="application/octet-stream" sparkle:edSignature="IDYKi7r5oBX682KGQOB1oPyy62fpb1NaR1ZSjx7L6arqL2uONwqq+tdlCgYVs7Y3aBMj/3djbk4X8kd+ZNLlBA=="/>
         </item>
     </channel>
 </rss>
