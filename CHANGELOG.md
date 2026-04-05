@@ -1,3 +1,10 @@
+## Version ..2
+
+### v..2 (April 04, 2026)
+- Bug fixes and improvements
+
+---
+
 ## Version 1.1.1
 
 ### Build  (April 04, 2026)
