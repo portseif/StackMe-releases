@@ -1,3 +1,10 @@
+## Version 1.1.3
+
+### v1.1.3 (April 04, 2026)
+- Fix release script for major.minor.build versioning
+
+---
+
 ## Version ..2
 
 ### v..2 (April 04, 2026)
