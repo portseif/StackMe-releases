@@ -1,3 +1,10 @@
+## Version 1.1.6
+
+### v1.1.6 (April 04, 2026)
+- Bug fixes and improvements
+
+---
+
 ## Version 1.1.5
 
 ### v1.1.5 (April 04, 2026)
