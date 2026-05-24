@@ -3,12 +3,12 @@
     <channel>
         <title>StackMe</title>
         <item>
-            <title>1.0</title>
-            <pubDate>Sun, 24 May 2026 15:00:05 -0400</pubDate>
-            <sparkle:version>2</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <title>1.1.7</title>
+            <pubDate>Sun, 24 May 2026 18:31:38 -0400</pubDate>
+            <sparkle:version>1.1.7</sparkle:version>
+            <sparkle:shortVersionString>1.1.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
-            <enclosure url="https://portseif.github.io/StackMe-releases/StackMe-1.1.7.dmg" length="9391823" type="application/octet-stream" sparkle:edSignature="ZdfREHXNff0mim3RVwkldH5AuHhVMbMyPHHcR0gerJiXHfyy3KhOmuqMPpLFALgreZmiguIi8Bk+8YLpNAAHCA=="/>
+            <enclosure url="https://portseif.github.io/StackMe-releases/releases/StackMe-1.1.7.dmg" length="10639089" type="application/octet-stream" sparkle:edSignature="JAWIbDCpp592LZDbev/wnICSKuwnt+GRfuZnf4E5BHx7gifCjEcY8kTXj8kwdzlCdu6+XYUJ33DqaQabY5GVAQ=="/>
         </item>
         <item>
             <title>1.1.5</title>
@@ -20,17 +20,6 @@
             <sparkle:deltas>
                 <enclosure url="https://portseif.github.io/StackMe-releases/StackMe1.1.5-1.1.1.delta" sparkle:deltaFrom="1.1.1" length="827602" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="SBNSTSuQu4UuMvErtNhS/WZxfgc8sVihd8OhUk4slnz7ellg2BmBCTscwiy7HupJF+wrLwsks8z0LlneQH+FDQ=="/>
                 <enclosure url="https://portseif.github.io/StackMe-releases/StackMe1.1.5-1.delta" sparkle:deltaFrom="1" length="1944918" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Gw9aEhPzlubl+jotcTzFkLgSTgqfJjOciEivB4k1T93IRXu3kkBGUaBK1pHadhy7CKVEehokXl8FQijIjFicCQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.1.1</title>
-            <pubDate>Sat, 04 Apr 2026 21:13:01 -0400</pubDate>
-            <sparkle:version>1.1.1</sparkle:version>
-            <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
-            <enclosure url="https://portseif.github.io/StackMe-releases/StackMe-1.1.1.dmg" length="9425200" type="application/octet-stream" sparkle:edSignature="soHm8WLFiI2V0NcPhA5nzxlLHnATKWXE3o37iDDHGaX06oOS1fVucYoAqk7qGuGC2+cyJr5xPaiHHL90ohhICQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://portseif.github.io/StackMe-releases/StackMe1.1.1-1.delta" sparkle:deltaFrom="1" length="1943546" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="IWlJnVFjya8t5xlswONxKWzYm0CQz8R7b98rKeTrS8uF2VwqxB9Wp+DfsnopbnNM8n7Ca9nS33CaD3TrCGUoBA=="/>
             </sparkle:deltas>
         </item>
     </channel>
