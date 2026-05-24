@@ -1,3 +1,34 @@
+## Version 1.1.7
+
+### v1.1.7 (May 24, 2026)
+- Match the accent to the system color across the app
+- Switch menus, tooltips, and popups to thin material
+- Light-mode shell, vibrant menus, and system-matching accent fills
+- Extend the droplet path chip to more path readouts
+- Add Intelligence settings pane and agent handoff for AI fixes
+- Add droplet path hover chip and inline icon button feedback
+- Error→AI Phase 2: in-app Claude fix bridge for JS errors
+- Error→editor/AI Phase 1: open JS errors in editor via ErrorContextResolver
+- Error→editor/AI Phase 0: ErrorContext resolver + richer JS capture
+- UI consistency pass: menus, sheets, underline fields, interactive tooltips
+- Card quick-actions fly-out submenus, inspector redesign, UX polish
+- Backups tab dashboard redesign, schedule sheet, WP backup PATH fix
+- Backups redesign, project morph, tooltip delay, WP sync fix
+- Secrets matrix, Backups tab, status diff stats, Laravel installer fix
+- Secrets panel cleanup, env picker sliding pill, tooltip dismiss fix
+- Pro feature gating, tooltip system, dynamic pricing, and UX polish (#12)
+- Pro feature gating, tooltip system, dynamic pricing, and UX polish (#11)
+- Sign Debug builds with Developer ID Application to keep TCC grants
+- Remove redundant dark-mode-only previews across the codebase
+- Overview tab cleanup: footers, progress toast, previews, dead helper
+- Apply fade mask to Stacks grid and drop dark-mode preview
+- Harden ScrollViewWithThinIndicator against native scrollbars
+- Project creation wizard overhaul, sync reliability, and UX polish
+- Sparkline chart, sidebar accordions, About redesign, release tooling, and UI polish
+- Fix sparkline recording one entry per refresh instead of multiple
+
+---
+
 ## Version 1.1.6
 
 ### v1.1.6 (April 04, 2026)

@@ -1,0 +1,6 @@
+{
+  "_comment": "Public pricing feed for StackMe. Updated here takes effect in the app within 24h (client cache TTL). Edit values in cents; supported currency is USD.",
+  "monthly":  { "amountCents": 1500,  "currency": "USD" },
+  "yearly":   { "amountCents": 8900,  "currency": "USD" },
+  "lifetime": { "amountCents": 24900, "currency": "USD" }
+}
