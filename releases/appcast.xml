@@ -3,12 +3,23 @@
     <channel>
         <title>StackMe</title>
         <item>
+            <title>1.1.8</title>
+            <pubDate>Sun, 24 May 2026 20:01:05 -0400</pubDate>
+            <sparkle:version>1.1.8</sparkle:version>
+            <sparkle:shortVersionString>1.1.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <enclosure url="https://portseif.github.io/StackMe-releases/releases/StackMe-1.1.8.dmg" length="10710082" type="application/octet-stream" sparkle:edSignature="LGcBZa+ObPux2eT2u272gUpHo8dvifPe3AVUaF8FRKAlJIboWxF9xhnRvwlak0BYH2YPaPUab1EZMUYR83lyDw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://portseif.github.io/StackMe-releases/releases/StackMe1.1.8-1.1.7.delta" sparkle:deltaFrom="1.1.7" length="31534" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="gFJqvR3ta5YX4R+Bbs7ROrHLK1w9kcRcx/tyG/LzvbdGj0q6nCchXhJb4a9MePAp7MOQKsQNIjCtBZbY67KDBw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.1.7</title>
             <pubDate>Sun, 24 May 2026 18:31:38 -0400</pubDate>
             <sparkle:version>1.1.7</sparkle:version>
             <sparkle:shortVersionString>1.1.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
-            <enclosure url="https://portseif.github.io/StackMe-releases/releases/StackMe-1.1.7.dmg" length="10639089" type="application/octet-stream" sparkle:edSignature="JAWIbDCpp592LZDbev/wnICSKuwnt+GRfuZnf4E5BHx7gifCjEcY8kTXj8kwdzlCdu6+XYUJ33DqaQabY5GVAQ=="/>
+            <enclosure url="https://portseif.github.io/StackMe-releases/releases/StackMe-1.1.7.dmg" length="10642789" type="application/octet-stream" sparkle:edSignature="K21laI60OH6PpwclyOofBJN29LV+bfQJERJ9wrbKte/19bU9UI184Db4qDj9IFfKmg/IluQuS2+4Oq6cwVEJCw=="/>
         </item>
         <item>
             <title>1.1.5</title>

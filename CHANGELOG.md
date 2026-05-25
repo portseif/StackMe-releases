@@ -1,3 +1,15 @@
+## Version 1.1.8
+
+### v1.1.8 (May 24, 2026)
+- Make the JS error panel actions auto-width
+- Clarify the JavaScript errors panel and inline its actions
+- Flatten sidebar rows and add press feedback
+- Tighten menus and share one sidebar row
+- Accent the active provider indicator in Intelligence settings
+- Fix version stamping and the Sparkle download URL in the release flow
+
+---
+
 ## Version 1.1.7
 
 ### v1.1.7 (May 24, 2026)
