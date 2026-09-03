@@ -3,6 +3,165 @@
     <channel>
         <title>StackMe</title>
         <item>
+            <title>1.1.9</title>
+            <pubDate>Thu, 03 Sep 2026 21:56:40 +0800</pubDate>
+            <sparkle:version>1.1.9</sparkle:version>
+            <sparkle:shortVersionString>1.1.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description><![CDATA[<style>
+  :root { color-scheme: light dark; }
+  body { font: 13px/1.55 -apple-system, system-ui, sans-serif; margin: 0; }
+  h2 { font-size: 15px; margin: 0 0 8px; }
+  ul { margin: 0; padding-left: 18px; }
+  li { margin: 4px 0; }
+</style>
+<h2>StackMe 1.1.9</h2>
+<ul>
+  <li>Logs tab, remote .env pull, Laravel pull toggles, clone cache excludes</li>
+  <li>Add type-to-filter to floating menu pickers</li>
+  <li>Cap oversized os_log payloads, title-bar project breadcrumb switcher</li>
+  <li>Fix tooltips floating off their anchors (NSHostingView panel resize)</li>
+  <li>Remove commented-out code from ToastNotification</li>
+  <li>Surface GitHub secret import in the environment sheet, drop dead Secrets views</li>
+  <li>Fix shellWithTimeout burning its full timeout on every command</li>
+  <li>Speed up Ports scrolling and WP URL rewrite, quiet the backup scheduler</li>
+  <li>Add Opus 5, fix stale tooltip positioning, warn on retired models</li>
+  <li>Gate unavailable runtimes in the wizard; confirm remote runbook runs</li>
+  <li>MVP hardening: store safety, backup honesty, deletion opt-ins, crash reporting</li>
+  <li>Clone from SSH wizard: copy picker, resilient builds, minimize to toast</li>
+  <li>SSH keys, jump hosts, and per-environment runbook commands</li>
+  <li>Clone from SSH: type-aware database clone (files + DB)</li>
+  <li>Add "Copy from a server" project-creation source (rsync over SSH)</li>
+  <li>App sheets morph on ANY growth, not just animated triggers</li>
+  <li>Env sheet tab rule runs edge-to-edge; tabs sit inset on it</li>
+  <li>Remove the resize blur-to-mask on app sheet content</li>
+  <li>App sheets center in the whole window again</li>
+  <li>Sheet resize with intent: fully-damped morph + blur-to-mask</li>
+  <li>Env sheet: tabs sit under the title; UnderlineTabBar gains showsBorder</li>
+  <li>Env sheet: breathe above the tabs, single rule below them</li>
+  <li>Env sheet auto-heights per tab</li>
+  <li>Tab bar: never wrap titles; tighter spacing + wider env sheet</li>
+  <li>Extract UnderlineTabBar; env modal adopts the detail page's tab style</li>
+  <li>Env form: primary-color section icons; SSH Test Connection always visible</li>
+  <li>Env modal: Git tab (icon-git) splits branch/remote out of General</li>
+  <li>Tab out the environment config modal</li>
+  <li>Detail header gear opens the selected environment's config</li>
+  <li>Show detected project identity (Statamic/Astro) everywhere, not just the table</li>
+  <li>Menu bar: stack logos on Recent Projects</li>
+  <li>Settings form: bump bottom clearance to Spacing.xxxl</li>
+  <li>Settings form: Spacing.xxl clearance under the last section</li>
+  <li>Fix sidebar-toggle shimmer on the Agents run list</li>
+  <li>Ports: kill button next to PIDs in the listening table</li>
+  <li>Filter icon popover: color picker inside, edit support, hug fix</li>
+  <li>Built-in filters render as plain colored dots, not icons</li>
+  <li>Fix mispositioned hover tooltip on health trend-chart history dots</li>
+  <li>Filter icon picker: status-dot default, more dev icons, icon+color in front of name</li>
+  <li>Filters: single custom-color field + icons</li>
+  <li>Add parsing unit tests; harden ls preamble skip against bracket prose</li>
+  <li>Harden container CLI: timeouts + failure-is-not-empty run-state</li>
+  <li>Surface partial DB-import failures as an amber warning toast</li>
+  <li>Hard-disable CloudKit sync, remove dead command-menu code</li>
+  <li>Agent apply/harvest fixes, dependency update UX, health drill-downs, RAM + settings cleanup</li>
+  <li>Health day-tick strip + inline panel, agent permission tiers and apply hardening, Badge sweep, Fable 5</li>
+  <li>Health column redesign, agent speed tuning, and settings centering fix</li>
+  <li>Route View/Help menus, remove window-tab items, settle traffic lights after resize</li>
+  <li>Terminal dock entry point, Codex verify, real health probes, remote code backup</li>
+  <li>Backup restore round-trip + backups honesty pass; commit WIP pivot work</li>
+  <li>AppSheet auto-height, backups calendar, container php serving</li>
+  <li>Container serving model, concurrency cleanup, and workspace polish</li>
+  <li>Add per-row copy to the .env file view</li>
+  <li>Move container runtime config to Settings; add logs viewer + AI diagnosis</li>
+  <li>Keep backup row "1 month ago" age on one line</li>
+  <li>Verify scheduled backups: due-logic tests + DEBUG scheduler trace</li>
+  <li>Extract a shared SectionHeader component</li>
+  <li>Make Filter/Display header toggles fully tappable</li>
+  <li>Forward TOC-rail scroll-wheel events into the Settings form</li>
+  <li>Traffic-light nudge: deterministic flip-safe positioning, documented resize limit</li>
+  <li>Capture code + media in manual full backups</li>
+  <li>Stream container image-pull progress into the status line</li>
+  <li>Add Run Migrations bulk action + databaseMigrated emitter</li>
+  <li>Wire backup Download to a real .zip export</li>
+  <li>Add dedicated ImportDirectoryView for bulk import</li>
+  <li>Apple Container deletion cleanup + image-pull UX; pivot checkpoint</li>
+  <li>Full-width workspace dividers + stack-card New project + backup restore wiring</li>
+  <li>Make appSheet backdrop a window drag handle + seal title-bar clicks</li>
+  <li>Fix title-bar buttons dragging the window + add AccentButtonStyle</li>
+  <li>Rebuild project detail page (env-centric) + DRY pass + container 1.0</li>
+  <li>Add custom AppSheet overlay for app-matching modal sheets</li>
+  <li>Dedupe Views: shared backup-sheet bits, status pill, timeline row, ActionBar</li>
+  <li>Extract Activity timeline + Backups tab into value-input views</li>
+  <li>gitignore the local Apple SwiftUI skills export</li>
+  <li>SwiftUI render-path optimizations + the-pivot WIP checkpoint</li>
+  <li>Enhance workspace views by enabling fade mask in ScrollViewWithThinIndicator for improved user experience and adding workspaceContentWidth extension for consistent layout across multiple views. Updated WorkspaceCommandSearch to include utility commands in search results, ensuring comprehensive command access.</li>
+  <li>Enable fade mask in ScrollViewWithThinIndicator for AddEnvironmentSheet and EditEnvironmentSheet to enhance user experience.</li>
+  <li>Update BackupScheduleSheet and WorkspaceBackupScheduleSheet to enable fade mask in ScrollViewWithThinIndicator; refactor selectedEnvironment closure in WorkspaceNewBackupSheet for improved readability.</li>
+  <li>Add workspace session memory and title bar cluster width management</li>
+  <li>Enhance SpacingSystem and TypographySystem with new animations and typography adjustments</li>
+  <li>Add @MainActor annotations to RuntimeProvider methods for improved concurrency handling</li>
+  <li>Workspace shell goes permanent: delete classic UI, monochrome button system, Stacks list redesign</li>
+  <li>Ports destination, global Backups modals, tabbed project detail, slim projects table</li>
+  <li>Health column sparkline + hover popover, dependency/health probes, polish</li>
+  <li>Workspace shell: title-bar toolbars, Health column + popover, Backups redesign</li>
+  <li>Rework project creation, logging, and projects workspace UI</li>
+  <li>Rework project creation flow, add SwiftTerm build runtime, redesign projects table</li>
+  <li>Settings: long-form searchable view with category drill-down; search polish</li>
+  <li>Workspace shell: notifications, inline command search, projects table; container served-URL health</li>
+  <li>Editor split button, Herd dev-server run-state, settings polish</li>
+  <li>Observable run-state store + title-bar project command menu</li>
+  <li>Add multi-runtime seam + Apple Container runtime (per-project)</li>
+  <li>Add project-scoped AI agent runs (Agents surface)</li>
+  <li>Embedded terminal: SwiftTerm dock with tabs + rename (pivot Phase 3)</li>
+  <li>Workspace sidebar active-row fill + FloatingMenu corner radius (pivot Phase 3)</li>
+  <li>Workspace shell polish: gradient New Project in the panel, traffic-light + spacing tweaks (pivot Phase 3)</li>
+  <li>Workspace shell window chrome: hidden title bar + opaque themed shell (pivot Phase 3)</li>
+  <li>Workspace shell UI polish: terminal in content column, width cap, flat UserButton (pivot Phase 3)</li>
+  <li>Add resizable bottom terminal dock with persisted height (pivot Phase 3)</li>
+  <li>Day-group the global Activity feed (pivot Phase 3 polish)</li>
+  <li>Reconcile project detail to the feed styling (pivot Phase 3)</li>
+  <li>Add Projects table for the workspace shell (pivot Phase 3)</li>
+  <li>Add workspace-shell toolbar controls: editor picker + theme + terminal (pivot Phase 3)</li>
+  <li>Redesign workspace sidebar: destinations + project quick-list + user (pivot Phase 3)</li>
+  <li>Wire more activity emitters + persist rail destination (pivot Phase 3 polish)</li>
+  <li>Wire the workspace nav rail into ContentView (pivot Phase 3)</li>
+  <li>Add nav rail foundations + global Activity/Snapshots feeds (pivot Phase 3)</li>
+  <li>Surface project commands in the command palette (pivot Phase 3)</li>
+  <li>Add project-centric detail page behind a feature flag (pivot Phase 3)</li>
+  <li>Add ProjectWorkspace + coordinators (pivot Phase 2)</li>
+  <li>Add RuntimeProvider seam over Herd (pivot Phase 1)</li>
+  <li>Add auto-backup scheduler</li>
+  <li>Toast pill redesign + neutral gray selection across sidebar and menus (#13)</li>
+  <li>WordPress DB sync hardening, spinner standardization, ContentView extraction</li>
+  <li>Centralize the shared Herd tool-path list</li>
+  <li>Remove dead OverviewTabView leftovers</li>
+  <li>Remove dead ProjectDetailSidebar struct and orphaned sync methods</li>
+  <li>Remove dead quick-actions cluster from ContentView</li>
+  <li>Consolidate sync option cards into one card + accessory</li>
+  <li>Consolidate icon views behind a shared AssetIcon</li>
+  <li>Prune dead design-system tokens</li>
+  <li>Remove dead FileSyncService methods</li>
+  <li>Delete dead EnvironmentStatusCard and its OverviewTabView cluster</li>
+  <li>Remove the unshipped database Migration feature</li>
+  <li>Delete dead GitStatusBar.swift</li>
+  <li>Remove deprecated sync git methods and stale Laravel helper</li>
+  <li>Remove orphan view and preference-key types</li>
+  <li>Remove dead orphan types and unused ProgressiveBlur</li>
+  <li>Add UI mockups and reference screenshots</li>
+  <li>Add color theme system and AI fix session</li>
+  <li>Add a model stat-bar flyout to the Intelligence picker</li>
+  <li>Stream the AI fix investigation as a live transcript</li>
+  <li>Add a propose-and-review flow to Fix with AI</li>
+  <li>Await ShellService.run in the project inspector</li>
+  <li>Fix stack card vanishing when dropped on itself</li>
+  <li>Stop sidebar rows shrinking on press</li>
+  <li>Drop the stack chip from project cards and list rows</li>
+  <li>Run Claude Code headlessly to apply error fixes</li>
+  <li>Warn on incomplete selection checkboxes and fix the selected chevron</li>
+  <li>Expand CLAUDE.md release and signing docs, dedupe a gating note</li>
+</ul>
+]]></description>
+            <enclosure url="https://portseif.github.io/StackMe-releases/releases/StackMe-1.1.9.dmg" length="14436339" type="application/octet-stream" sparkle:edSignature="o5D+S9GYv6yYmAD2r4LbbUB0edhL9xbjhwMoApxObrzD4Z+OBG+GS2fhrdyMRRU/nlvvgTSjU4mPB9C+nFmkCw=="/>
+        </item>
+        <item>
             <title>1.1.8</title>
             <pubDate>Sun, 24 May 2026 20:01:05 -0400</pubDate>
             <sparkle:version>1.1.8</sparkle:version>
@@ -20,18 +179,6 @@
             <sparkle:shortVersionString>1.1.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
             <enclosure url="https://portseif.github.io/StackMe-releases/releases/StackMe-1.1.7.dmg" length="10642789" type="application/octet-stream" sparkle:edSignature="K21laI60OH6PpwclyOofBJN29LV+bfQJERJ9wrbKte/19bU9UI184Db4qDj9IFfKmg/IluQuS2+4Oq6cwVEJCw=="/>
-        </item>
-        <item>
-            <title>1.1.5</title>
-            <pubDate>Sat, 04 Apr 2026 21:30:11 -0400</pubDate>
-            <sparkle:version>1.1.5</sparkle:version>
-            <sparkle:shortVersionString>1.1.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
-            <enclosure url="https://portseif.github.io/StackMe-releases/StackMe-1.1.6.dmg" length="9418022" type="application/octet-stream" sparkle:edSignature="QiWlOyDAclytAco6bAlMNMWqnKQulA7OXuuUliY2foXvNsn/LIGBGNVeWizQE54fu8E+Wha7Js5b/xR9dRESDw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://portseif.github.io/StackMe-releases/StackMe1.1.5-1.1.1.delta" sparkle:deltaFrom="1.1.1" length="827602" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="SBNSTSuQu4UuMvErtNhS/WZxfgc8sVihd8OhUk4slnz7ellg2BmBCTscwiy7HupJF+wrLwsks8z0LlneQH+FDQ=="/>
-                <enclosure url="https://portseif.github.io/StackMe-releases/StackMe1.1.5-1.delta" sparkle:deltaFrom="1" length="1944918" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Gw9aEhPzlubl+jotcTzFkLgSTgqfJjOciEivB4k1T93IRXu3kkBGUaBK1pHadhy7CKVEehokXl8FQijIjFicCQ=="/>
-            </sparkle:deltas>
         </item>
     </channel>
 </rss>
