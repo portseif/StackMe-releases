@@ -159,7 +159,7 @@
   <li>Expand CLAUDE.md release and signing docs, dedupe a gating note</li>
 </ul>
 ]]></description>
-            <enclosure url="https://portseif.github.io/StackMe-releases/releases/StackMe-1.1.9.dmg" length="14436339" type="application/octet-stream" sparkle:edSignature="o5D+S9GYv6yYmAD2r4LbbUB0edhL9xbjhwMoApxObrzD4Z+OBG+GS2fhrdyMRRU/nlvvgTSjU4mPB9C+nFmkCw=="/>
+            <enclosure url="https://portseif.github.io/StackMe-releases/releases/StackMe-1.1.9.dmg" length="14438159" type="application/octet-stream" sparkle:edSignature="LE07rz8yXGa1CVK2YOkIVYBc+SfvbimxQLBIP6XFDzIPFQcecXChKYe6XLEPEijOQM01N72zRqbg5rHl+7f5Ag=="/>
         </item>
         <item>
             <title>1.1.8</title>
