@@ -1,3 +1,15 @@
+## Version 1.1.10
+
+### v1.1.10 (September 08, 2026)
+- Give the certificate lock the status palette
+- Drop the scheme from the projects table domain
+- Show TLS certificate expiry on the projects table
+- Fix the collapsed GitHub import sheet
+- Grow the shell around the onboarding card's own center
+- Swap onboarding for the shell in place, with no window animation
+
+---
+
 ## Version 1.1.9
 
 ### v1.1.9 (September 04, 2026)
