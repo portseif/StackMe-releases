@@ -1,7 +1,20 @@
 ## Version 1.1.11
 
 ### v1.1.11 (September 21, 2026)
-- Bug fixes and improvements
+- Translate StackMe into Spanish, French, German, Italian, Brazilian Portuguese, Russian, Japanese, Korean and Simplified Chinese, with separate interface and AI reply language settings
+- Add a Tools page for the CLI tools StackMe drives, with installed versions and one-click updates
+- Add a Dependencies tab showing each project's toolchain and package versions
+- Save unfinished projects and stacks as drafts
+- Run Astro dev servers from StackMe with permanent .test links, and flag servers started outside StackMe with a one-click take over
+- Redesign the Ports dev-server cards with live HMR status and recent servers
+- Rebuild the New filter dialog as Linear-style chips that open straight into the field picker
+- Flag projects whose folder or git remote went stale, with a fix button for every blocked state
+- Add hover states to workspace lists and the backups calendar, and use plain Stacks icons
+- Give every clickable URL the same link style and a pointing-hand cursor
+- Make status chips readable in dark mode and fix the scroll fade masks
+- Redesign the DMG installer window
+- Fix new-project builds hanging when a tool reads the terminal, and fix Tailwind v4 setup in the React and TALL stacks
+- Build with Xcode 27
 
 ---
 
