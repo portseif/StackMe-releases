@@ -17,26 +17,13 @@
 </style>
 <h2>StackMe 1.1.11</h2>
 <ul>
-  <li>Translate StackMe into Spanish, French, German, Italian, Brazilian Portuguese, Russian, Japanese, Korean and Simplified Chinese, with separate interface and AI reply language settings</li>
-  <li>Add a Tools page for the CLI tools StackMe drives, with installed versions and one-click updates</li>
-  <li>Add a Dependencies tab showing each project's toolchain and package versions</li>
-  <li>Save unfinished projects and stacks as drafts</li>
-  <li>Run Astro dev servers from StackMe with permanent .test links, and flag servers started outside StackMe with a one-click take over</li>
-  <li>Redesign the Ports dev-server cards with live HMR status and recent servers</li>
-  <li>Rebuild the New filter dialog as Linear-style chips that open straight into the field picker</li>
-  <li>Flag projects whose folder or git remote went stale, with a fix button for every blocked state</li>
-  <li>Add hover states to workspace lists and the backups calendar, and use plain Stacks icons</li>
-  <li>Give every clickable URL the same link style and a pointing-hand cursor</li>
-  <li>Make status chips readable in dark mode and fix the scroll fade masks</li>
-  <li>Redesign the DMG installer window</li>
-  <li>Fix new-project builds hanging when a tool reads the terminal, and fix Tailwind v4 setup in the React and TALL stacks</li>
-  <li>Build with Xcode 27</li>
+  <li>Bug fixes and improvements</li>
 </ul>
 ]]></description>
-            <enclosure url="https://portseif.github.io/StackMe-releases/releases/StackMe-1.1.11.dmg" length="15181507" type="application/octet-stream" sparkle:edSignature="brLjugpCKpUWgsUSbhxLckyQ6JKq8S5FihHZc1+VF29i950wNyEZ3od9DBB8WA+gTKDJkS2P63bpNzpFLO45DQ=="/>
+            <enclosure url="https://portseif.github.io/StackMe-releases/releases/StackMe-1.1.11.dmg" length="15181519" type="application/octet-stream" sparkle:edSignature="shaZqqwGX4CUmIURgoKmM/lY4TcOY+IjvmF1lUOmGGEZMABmDAQBsrjq/Str1sg/+kQopuaK+Lvk8AEFG+HVBQ=="/>
             <sparkle:deltas>
-                <enclosure url="https://portseif.github.io/StackMe-releases/releases/StackMe1.1.11-1.1.10.delta" sparkle:deltaFrom="1.1.10" length="8518850" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VhvjI7V0ew6KprHpVSAe20fSFllMScAf2qwvBUGKL2IweRWKG0cTogtwL5BNewx986hKtqKRQXXFmgZmMAZJAA=="/>
-                <enclosure url="https://portseif.github.io/StackMe-releases/releases/StackMe1.1.11-1.1.9.delta" sparkle:deltaFrom="1.1.9" length="8550870" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="93+f0LhDwdXFUz7vhPKHVIZ1cOM+s2Yc42kS3cmkdouTtR4m1zffapGRBbnI5gDZaWDxmfBz8LAjr+4wiwEGDw=="/>
+                <enclosure url="https://portseif.github.io/StackMe-releases/releases/StackMe1.1.11-1.1.10.delta" sparkle:deltaFrom="1.1.10" length="8518630" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="842K4D1XNjJ2TVy1RkUttEbcS/dWGetnRcA83tpFKbtHLwJG3MZzepPzq5oVhTLLA8v6IF+7Ht0ygaRXEczRBw=="/>
+                <enclosure url="https://portseif.github.io/StackMe-releases/releases/StackMe1.1.11-1.1.9.delta" sparkle:deltaFrom="1.1.9" length="8552438" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Y+83ErxZs43bX1980CcFtr3AYAbtqBEo+QYnuOTueArL8dQvcjMFfPUss4yKFV1vW6g0eTwfWUnwsiBaz4GHBA=="/>
             </sparkle:deltas>
         </item>
         <item>
