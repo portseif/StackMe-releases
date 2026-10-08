@@ -1,3 +1,105 @@
+## Version 1.1.12
+
+### v1.1.12 (October 08, 2026)
+- Fix Xcode's build errors and warnings
+- Update Xcode breakpoints
+- Command search: localize the trailing type tags
+- Fix the second review's findings: partial probes, accent text, badge contrast
+- Project timeline rows get padding inside their hover fill
+- Secrets tab: Import and Add secret are matching pill buttons
+- Fix the review findings: probes, Claude card, Dependency Tools, themes
+- Themes set the status colors; Color Blind Safe and Low Glare themes
+- Menu Remove rows hover with the destructive button's red wash
+- Health checks run the added dependency tools (pip, Bundler, Cargo, Go)
+- Dependency Tools run in the terminal dock; chips keep their height on hover
+- New filter: the empty chip bar button reads "Add filter"
+- Add ten 21st.dev community themes
+- Dependency Tools: run commands, add built-ins and custom tools
+- AI Commit shows its token use and estimated cost
+- Claude Code card: logo, update check, and Claude's own model menu
+- Lock page scrolling while a menu is open; thin thumb in scrolling menus
+- Open menus follow their trigger when the page scrolls
+- Fix the Bedrock review findings: push protects web/app uploads, moves read the copy
+- Linked theme and plugin repos on Bedrock sites (web/app)
+- Fix the second audit's findings: sync and backup sheets, projects table, focus layers
+- Restore a server's code from its backup
+- Focus ring preview shows its rings (keyboard-only rings never appear in a preview)
+- Fix the review findings: Bedrock push and WooCommerce, Open With, Herd import, keyboard edge cases
+- Context-menu key, Dock / Finder Open With, Herd sites at onboarding, Bedrock WordPress
+- Keyboard navigation for right-click menus
+- Focus ring on the menu row the keys are on; command search result ring
+- Keyboard-only focus rings, Return presses the focused control, Tab in menus; drawn checkboxes
+- One focus ring for every control; flat switches; command search and picker polish
+- Fix the uncovered-areas audit: release script, health probes, pipe stalls, secrets at rest, workspace UI
+- Fix the audit's unverified findings: sheet lists, Clone from SSH, WordPress pull, build runner, menus
+- WordPress site title and admin login in the wizard; drop a folder on Projects to import it
+- Keyboard navigation for the Filter, Display and bulk Actions menus; keep-awake for agent runs; dev server log cap
+- Build features on the uncalled APIs; keep the tab when switching projects; accent focus rings
+- Remove the 55 stale string catalog entries
+- Wire the uncalled SSH, update-all and archive actions; finish font tokens
+- Add missing previews, fix crash-report diagnostics, purpose strings and acknowledgements
+- Sweep the audit's design-token gaps
+- Polish the audit's low-severity UI gaps; add shortcut hints, row Sync menu and Dock completion count
+- Fix the audit's low-severity correctness and safety gaps
+- Fix the audit's medium-severity gaps and translate the new strings
+- Fix the audit's high-severity gaps
+- Lift toasts above the bulk bar and refresh the Modified list
+- Keep menus inside the app and give them Emil-style motion
+- Keep the Projects back link where the heading sits
+- Stack toasts like cards and list them on hover
+- Show focus on every hand-built input
+- Animate every reveal toggle's slash the same way
+- Fade the command search results at the top and bottom
+- Put section-level empty states in a dashed outline
+- Give EmptyState one look everywhere
+- Give Agents rows their hover fill
+- Use the compact buttons in every sheet
+- Fix three issues in the linked repo and WordPress wizard work
+- Mention WordPress installs and linked themes and plugins in the README
+- Add plugins and several themes to the New Project wizard
+- Stop Push from skipping every src folder in the site
+- Support a linked plugin in Pull and Push
+- Update the README's Requirements and Releasing sections
+- Refresh the README's feature list
+- Skip working folders and AGENTS.md when pushing
+- Use one red on dark, and a red error toast icon
+- Make Create Another keep the project and start clean
+- Match dark-mode amber, blue and red to the status chips too
+- Keep .env lines on one line and scroll the card sideways
+- Delete the Activity empty state's unused subtitle strings
+- Drop the subtitle from the Activity empty state
+- Match dark-mode greens to the status chips' label green
+- Cap floating menus and scroll the overflow
+- Fail a theme pull when the theme isn't on the server
+- Build the Ready screen's checklist from the real steps
+- Keep a copied theme in its own repo when cloning from SSH
+- Match the wizard's build and result buttons to its step footers
+- Point AGENTS.md at CLAUDE.md and remove the zenflow task docs
+- Translate the stack editor tabs and the deploy auto label
+- Drop GitHub Actions and Web Preview from the Pro feature list
+- Open Settings' info hints in the app's own panel
+- Keep the token breakdown counting while it's open
+- Toggle the token breakdown instead of showing it on hover
+- Show the token breakdown in a tooltip, not a popover
+- Give the token breakdown an info affordance
+- Break the run's token count down on hover
+- Drop the duplicate status from the agent run header
+- Say how much of an agent run's token count was cached
+- Re-sort the String Catalog the way Xcode writes it
+- Translate the system proxy warning
+- Mark a standalone time with a clock glyph
+- Warn when a system proxy swallows local .test links
+- Bring back the scroll edge fade as an alpha mask
+- Remove the dead Fix with AI sheet and the Anthropic API key provider
+- Fix actor-isolation warnings in the dependency scanner
+- Rewrite CLAUDE.md to describe the app as it is now
+- Remove dead code: unused features, orphaned views and types, and their strings
+- Clear the String Catalog warnings: drop stale keys, format percentages
+- Update the Claude and Codex model lists
+- Keep a version's release notes when release.sh re-runs it
+
+---
+
 ## Version 1.1.11
 
 ### v1.1.11 (September 21, 2026)

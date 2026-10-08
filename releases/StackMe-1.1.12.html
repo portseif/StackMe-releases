@@ -1,0 +1,106 @@
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 13px/1.55 -apple-system, system-ui, sans-serif; margin: 0; }
+  h2 { font-size: 15px; margin: 0 0 8px; }
+  ul { margin: 0; padding-left: 18px; }
+  li { margin: 4px 0; }
+</style>
+<h2>StackMe 1.1.12</h2>
+<ul>
+  <li>Fix Xcode's build errors and warnings</li>
+  <li>Update Xcode breakpoints</li>
+  <li>Command search: localize the trailing type tags</li>
+  <li>Fix the second review's findings: partial probes, accent text, badge contrast</li>
+  <li>Project timeline rows get padding inside their hover fill</li>
+  <li>Secrets tab: Import and Add secret are matching pill buttons</li>
+  <li>Fix the review findings: probes, Claude card, Dependency Tools, themes</li>
+  <li>Themes set the status colors; Color Blind Safe and Low Glare themes</li>
+  <li>Menu Remove rows hover with the destructive button's red wash</li>
+  <li>Health checks run the added dependency tools (pip, Bundler, Cargo, Go)</li>
+  <li>Dependency Tools run in the terminal dock; chips keep their height on hover</li>
+  <li>New filter: the empty chip bar button reads "Add filter"</li>
+  <li>Add ten 21st.dev community themes</li>
+  <li>Dependency Tools: run commands, add built-ins and custom tools</li>
+  <li>AI Commit shows its token use and estimated cost</li>
+  <li>Claude Code card: logo, update check, and Claude's own model menu</li>
+  <li>Lock page scrolling while a menu is open; thin thumb in scrolling menus</li>
+  <li>Open menus follow their trigger when the page scrolls</li>
+  <li>Fix the Bedrock review findings: push protects web/app uploads, moves read the copy</li>
+  <li>Linked theme and plugin repos on Bedrock sites (web/app)</li>
+  <li>Fix the second audit's findings: sync and backup sheets, projects table, focus layers</li>
+  <li>Restore a server's code from its backup</li>
+  <li>Focus ring preview shows its rings (keyboard-only rings never appear in a preview)</li>
+  <li>Fix the review findings: Bedrock push and WooCommerce, Open With, Herd import, keyboard edge cases</li>
+  <li>Context-menu key, Dock / Finder Open With, Herd sites at onboarding, Bedrock WordPress</li>
+  <li>Keyboard navigation for right-click menus</li>
+  <li>Focus ring on the menu row the keys are on; command search result ring</li>
+  <li>Keyboard-only focus rings, Return presses the focused control, Tab in menus; drawn checkboxes</li>
+  <li>One focus ring for every control; flat switches; command search and picker polish</li>
+  <li>Fix the uncovered-areas audit: release script, health probes, pipe stalls, secrets at rest, workspace UI</li>
+  <li>Fix the audit's unverified findings: sheet lists, Clone from SSH, WordPress pull, build runner, menus</li>
+  <li>WordPress site title and admin login in the wizard; drop a folder on Projects to import it</li>
+  <li>Keyboard navigation for the Filter, Display and bulk Actions menus; keep-awake for agent runs; dev server log cap</li>
+  <li>Build features on the uncalled APIs; keep the tab when switching projects; accent focus rings</li>
+  <li>Remove the 55 stale string catalog entries</li>
+  <li>Wire the uncalled SSH, update-all and archive actions; finish font tokens</li>
+  <li>Add missing previews, fix crash-report diagnostics, purpose strings and acknowledgements</li>
+  <li>Sweep the audit's design-token gaps</li>
+  <li>Polish the audit's low-severity UI gaps; add shortcut hints, row Sync menu and Dock completion count</li>
+  <li>Fix the audit's low-severity correctness and safety gaps</li>
+  <li>Fix the audit's medium-severity gaps and translate the new strings</li>
+  <li>Fix the audit's high-severity gaps</li>
+  <li>Lift toasts above the bulk bar and refresh the Modified list</li>
+  <li>Keep menus inside the app and give them Emil-style motion</li>
+  <li>Keep the Projects back link where the heading sits</li>
+  <li>Stack toasts like cards and list them on hover</li>
+  <li>Show focus on every hand-built input</li>
+  <li>Animate every reveal toggle's slash the same way</li>
+  <li>Fade the command search results at the top and bottom</li>
+  <li>Put section-level empty states in a dashed outline</li>
+  <li>Give EmptyState one look everywhere</li>
+  <li>Give Agents rows their hover fill</li>
+  <li>Use the compact buttons in every sheet</li>
+  <li>Fix three issues in the linked repo and WordPress wizard work</li>
+  <li>Mention WordPress installs and linked themes and plugins in the README</li>
+  <li>Add plugins and several themes to the New Project wizard</li>
+  <li>Stop Push from skipping every src folder in the site</li>
+  <li>Support a linked plugin in Pull and Push</li>
+  <li>Update the README's Requirements and Releasing sections</li>
+  <li>Refresh the README's feature list</li>
+  <li>Skip working folders and AGENTS.md when pushing</li>
+  <li>Use one red on dark, and a red error toast icon</li>
+  <li>Make Create Another keep the project and start clean</li>
+  <li>Match dark-mode amber, blue and red to the status chips too</li>
+  <li>Keep .env lines on one line and scroll the card sideways</li>
+  <li>Delete the Activity empty state's unused subtitle strings</li>
+  <li>Drop the subtitle from the Activity empty state</li>
+  <li>Match dark-mode greens to the status chips' label green</li>
+  <li>Cap floating menus and scroll the overflow</li>
+  <li>Fail a theme pull when the theme isn't on the server</li>
+  <li>Build the Ready screen's checklist from the real steps</li>
+  <li>Keep a copied theme in its own repo when cloning from SSH</li>
+  <li>Match the wizard's build and result buttons to its step footers</li>
+  <li>Point AGENTS.md at CLAUDE.md and remove the zenflow task docs</li>
+  <li>Translate the stack editor tabs and the deploy auto label</li>
+  <li>Drop GitHub Actions and Web Preview from the Pro feature list</li>
+  <li>Open Settings' info hints in the app's own panel</li>
+  <li>Keep the token breakdown counting while it's open</li>
+  <li>Toggle the token breakdown instead of showing it on hover</li>
+  <li>Show the token breakdown in a tooltip, not a popover</li>
+  <li>Give the token breakdown an info affordance</li>
+  <li>Break the run's token count down on hover</li>
+  <li>Drop the duplicate status from the agent run header</li>
+  <li>Say how much of an agent run's token count was cached</li>
+  <li>Re-sort the String Catalog the way Xcode writes it</li>
+  <li>Translate the system proxy warning</li>
+  <li>Mark a standalone time with a clock glyph</li>
+  <li>Warn when a system proxy swallows local .test links</li>
+  <li>Bring back the scroll edge fade as an alpha mask</li>
+  <li>Remove the dead Fix with AI sheet and the Anthropic API key provider</li>
+  <li>Fix actor-isolation warnings in the dependency scanner</li>
+  <li>Rewrite CLAUDE.md to describe the app as it is now</li>
+  <li>Remove dead code: unused features, orphaned views and types, and their strings</li>
+  <li>Clear the String Catalog warnings: drop stale keys, format percentages</li>
+  <li>Update the Claude and Codex model lists</li>
+  <li>Keep a version's release notes when release.sh re-runs it</li>
+</ul>
